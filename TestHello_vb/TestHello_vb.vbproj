@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3B2253E0-094A-469C-8F61-9C4361CEEEAB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>TestHello_vb.Module1</StartupObject>
+    <StartupObject>TestHello_vb.HelloWorld</StartupObject>
     <RootNamespace>TestHello_vb</RootNamespace>
     <AssemblyName>TestHello_vb</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -69,7 +69,7 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Module1.vb" />
+    <Compile Include="HelloWorld.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
